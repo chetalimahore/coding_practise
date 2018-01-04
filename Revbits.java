@@ -38,5 +38,5 @@ unsigned int Solution::reverse(unsigned int A) {
 	return k;
 }
 
-
+I am adding this line to the existing code, rest everything is same.
  */
