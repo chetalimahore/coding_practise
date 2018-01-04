@@ -24,6 +24,8 @@ public class Revbits {
 
 /*
 
+This is some code but i need on master branch
+
 unsigned int Solution::reverse(unsigned int A) {
     // Do not write main() function.
     // Do not read input, instead use the arguments to the function.
