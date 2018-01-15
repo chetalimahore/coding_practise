@@ -1,5 +1,5 @@
 /**
- * @author cheta
+ * @author chetali
  * */
 public class Revbits {
 
@@ -19,28 +19,4 @@ public class Revbits {
 	}
 
 }
-// -1073741824
-// 3
 
-/*
-
-This is some code but i need on master branch
-
-unsigned int Solution::reverse(unsigned int A) {
-    // Do not write main() function.
-    // Do not read input, instead use the arguments to the function.
-    // Do not print the output, instead return values as specified
-    // Still have a doubt. Checkout www.interviewbit.com/pages/sample_codes/ for more details
-    unsigned int k = 0;
-	for(int i = 0; i < sizeof(unsigned int) * 8; ++i){
-	    if(A & (1 << i)) {
-		    k |= (1 << (((sizeof(unsigned int) * 8)-1) - i));
-	    }
-    }
-	return k;
-}
-
-I am adding this line to the existing code, rest everything is same.
-
-I am swapnil and I am adding a new feature.
- */
