@@ -7,7 +7,7 @@ public class TwoPrimes {
 	public ArrayList<Integer> prime_sum(int a) {
         ArrayList<Integer> list=new ArrayList<Integer>();
         int first=0;
-        List<Integer> array=isPrime(a);
+        List<Integer> array=is_Prime(a);
         Integer arr[]=array.toArray(new Integer[array.size()]);
         int i=0; int j=0;
         for(i=0;i<arr.length;i++)
