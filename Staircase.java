@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class Staircase
 {
    static int a[]={0,1,2,3};     //array of integers storing the number of steps that can be taken
-    static int b[];     //array storing output
+    static int b[];     //array used for memoisation
     static int count;   //count is for input values
     static int number;   //value of b[i] at each index
     static Scanner sc=new Scanner(System.in);
-    static int c[];
+    static int c[];  // array for storing th3e output for display
     
     public static boolean check(int number)
     {
