@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Staircase
 {
-   static int a[]={0,1,2,3};     //array of integers storing the input i.e. 1 3 7 suppose
+   static int a[]={0,1,2,3};     //array of integers storing the number of steps that can be taken
     static int b[];     //array storing output
     static int count;   //count is for input values
     static int number;   //value of b[i] at each index
