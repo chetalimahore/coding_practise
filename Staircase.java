@@ -22,7 +22,7 @@ public class Staircase
     public static int result(int n)
     {
         int sum=0;
-        for(int i=1;i<a.length;i++)
+        for(int i=1;i<a.length;i++)          //total number of steps will come by subtracting the given number from 
         {
            if(n-a[i]>0)
            {
