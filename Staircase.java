@@ -2,12 +2,12 @@ import java.util.Scanner;
 
 public class Staircase
 {
-   static int a[]={0,1,2,3};     //array of integers storing the input i.e. 1 3 7 suppose
-    static int b[];     //array storing output
+   static int a[]={0,1,2,3};     //array of integers storing the number of steps that can be taken
+    static int b[];     //array used for memoisation
     static int count;   //count is for input values
     static int number;   //value of b[i] at each index
     static Scanner sc=new Scanner(System.in);
-    static int c[];
+    static int c[];  // array for storing th3e output for display
     
     public static boolean check(int number)
     {
@@ -22,7 +22,7 @@ public class Staircase
     public static int result(int n)
     {
         int sum=0;
-        for(int i=1;i<a.length;i++)
+        for(int i=1;i<a.length;i++)          //total number of steps will come by subtracting the given number from 
         {
            if(n-a[i]>0)
            {
